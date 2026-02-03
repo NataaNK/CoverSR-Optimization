@@ -1,36 +1,36 @@
-# TFG_Resultados_y_Archivos
-Repositorio creado exclusivamente para recopilar y mostrar los archivos y resultados generados durante el desarrollo de mi TFG sobre SR. Debido a las limitaciones de tamaño de GitHub, solo se han subido los elementos estrictamente necesarios, incluyendo modelos, scripts y resultados seleccionados.
+# CoverSR-Optimization
+Repository created exclusively to collect and showcase the files and results generated during the development of my research project on image super-resolution (SR) optimization. Due to GitHub size limitations, only the strictly necessary elements have been uploaded, including models, scripts, and selected results.
 
-# 🖼️ Trabajo de Fin de Grado – Superresolución de Imágenes
+# 🖼️ Research Project – Image Super-Resolution
 
-Este repositorio **no corresponde al repositorio original de trabajo**, por lo que las fechas de los commits **no coinciden** con las fechas reales de desarrollo. Su único propósito es **presentar el código y los resultados generados** durante la elaboración del TFG, con el objetivo de documentar el proceso y las pruebas realizadas.
+This repository **does not correspond to the original working repository**, therefore the commit dates **do not match** the actual development timeline. Its sole purpose is to **present the code and results generated** during the development of the research project, with the goal of documenting the process and the experiments carried out.
 
-> ⚠️ Debido a las limitaciones de espacio en GitHub, **no es posible incluir todos los modelos evaluados** (9 en total) ni sus pesos completos ***(los PESOS de los modelos y los CHECKPOINTS de Fine-tuning/LoRA pesan más de lo permitido por Github para poder "PUSHEARLOS")***. Por este motivo, solo se han subido los elementos estrictamente necesarios y varios de ellos están comprimidos en `.zip` con enlace a Google Drive.
-
----
-
-## 📁 Estructura del repositorio
-
-El contenido está organizado de la siguiente forma:
-
-- **`/NombreModelo/`** → Código asociado a cada modelo evaluado.  
-- **`/resultados/`** → Salidas y comparativas de las distintas pruebas realizadas.  
-- **`/datasets/`** → Conjuntos de datos utilizados en la evaluación y el entrenamiento.  
-- **`/preparacion_deformaciones/`** → Scripts para la preparación de datos y generación de deformaciones.  
-- **`/evaluacion_matlab/`** → Código de evaluación implementado en MATLAB.  
-- **`/interfaz/`** → Interfaz desarrollada para visualización y pruebas.  
-- **`/lora/`** → Archivos y scripts relacionados con LoRA.  
-- **`/optuna/`** → Scripts para optimización de hiperparámetros con Optuna.  
-- **`/finetuning/`** → Código para el ajuste fino de modelos.
+> ⚠️ Due to GitHub storage limitations, **it is not possible to include all evaluated models** (9 in total) nor their full weights ***(model WEIGHTS and Fine-tuning/LoRA CHECKPOINTS exceed GitHub’s push size limits)***. For this reason, only the strictly necessary elements have been uploaded, and several of them are compressed in `.zip` files with links to Google Drive.
 
 ---
 
-## ⚙️ Nota sobre la funcionalidad
+## 📁 Repository structure
 
-Este repositorio **no es funcional de forma independiente**. Faltan partes esenciales del código y modelos completos debido a las limitaciones de almacenamiento, pero incluye suficiente información para **entender la estructura, el flujo de trabajo y las implementaciones utilizadas** para obtener los resultados presentados.
+The contents are organized as follows:
+
+- **`/<ModelName>/`** → Code associated with each evaluated model.  
+- **`/resultados/`** → Outputs and comparisons from the different experiments performed.  
+- **`/datasets/`** → Datasets used for evaluation and training.  
+- **`/preparacion_deformaciones/`** → Scripts for data preparation and degradation generation.  
+- **`/evaluacion_matlab/`** → Evaluation code implemented in MATLAB.  
+- **`/interfaz/`** → Interface developed for visualization and testing.  
+- **`/lora/`** → Files and scripts related to LoRA.  
+- **`/optuna/`** → Scripts for hyperparameter optimization with Optuna.  
+- **`/finetuning/`** → Code for model fine-tuning.
 
 ---
 
-## 📜 Licencia
+## ⚙️ Functionality note
 
-Este repositorio y su contenido forman parte de mi Trabajo de Fin de Grado y están disponibles únicamente con fines de **documentación y referencia académica**.
+This repository **is not functional as a standalone project**. Essential parts of the code and full models are missing due to storage limitations, but it includes enough information to **understand the structure, workflow, and implementations used** to obtain the presented results.
+
+---
+
+## 📜 License
+
+This repository and its contents are part of a research project and are provided solely for **documentation and academic reference purposes**.
