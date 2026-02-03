@@ -1,11 +1,12 @@
-# Resultados y gráficas
+# Results and plots
 
-Las salidas de cada *trial* por imagen, junto con sus gráficas (de todas formas las gráficas **también se encuentran en las carpetas 'mejor_salida_...'**), están empaquetadas en un archivo `.zip` alojado en Google Drive. Debido a su tamaño, no se han incluido en este repositorio (GitHub impide hacer *push* de archivos tan grandes).
+The outputs of each image *trial*, together with their plots (the plots **are also available in the 'mejor_salida_...' folders**), are packaged in a `.zip` file hosted on Google Drive. Due to their size, they have not been included in this repository (GitHub prevents pushing files of such large size).
 
-**Descarga:** [Enlace a Google Drive](https://drive.google.com/file/d/1j16K2YnpI4CDJmcxAoqQ_4dzLIitaU1Q/view?usp=sharing)
+**Download:** [Google Drive link](https://drive.google.com/file/d/1j16K2YnpI4CDJmcxAoqQ_4dzLIitaU1Q/view?usp=sharing)
 
-**Contenido del `.zip`:**
-- Salida de cada *trial*
-- Gráficas por cada imagen: historial de optimización, importancia de parámetros, gráfica de coordenadas paralelas y *slice plot* de dn_s
+**Contents of the `.zip`:**
+- Output of each *trial*
+- Plots for each image: optimization history, parameter importance, parallel coordinates plot, and *dn_s slice plot*
 
-> Si el enlace solicita permisos, pide acceso al propietario del repositorio.
+> If the link requests permissions, please ask the repository owner for access.
+
