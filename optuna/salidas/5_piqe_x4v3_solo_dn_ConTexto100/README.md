@@ -1,11 +1,12 @@
-# Resultados y logs
+# Results and logs
 
-La gráfica de valores óptimos para este dataset se encuentra en la carpeta 'mejor_salida_optuna_contexto100'. Las salidas de cada *trial* por imagen, junto con sus logs, están empaquetadas en un archivo `.zip` alojado en Google Drive. Debido a su tamaño, no se han incluido en este repositorio (GitHub impide hacer *push* de archivos tan grandes).
+The plot of optimal values for this dataset is located in the 'mejor_salida_optuna_contexto100' folder. The outputs of each image *trial*, together with their logs, are packaged in a `.zip` file hosted on Google Drive. Due to their size, they have not been included in this repository (GitHub prevents pushing files of such large size).
 
-**Descarga:** [Enlace a Google Drive](https://drive.google.com/file/d/1A-CqMN6FUUytxrr5bM7PqZDeyMx97dQO/view?usp=sharing)
+**Download:** [Google Drive link](https://drive.google.com/file/d/1A-CqMN6FUUytxrr5bM7PqZDeyMx97dQO/view?usp=sharing)
 
-**Contenido del `.zip`:**
-- Resultados de cada *trial* por imagen
-- Logs completos de ejecución con los parámetros probados por cada *trial*
+**Contents of the `.zip`:**
+- Results of each image *trial*
+- Full execution logs with the parameters tested in each *trial*
 
-> Si el enlace solicita permisos, pide acceso al propietario del repositorio.
+> If the link requests permissions, please ask the repository owner for access.
+
